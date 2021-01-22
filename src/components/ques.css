@@ -1,0 +1,77 @@
+body{
+    background-color: rgba(84, 149, 151, 0.637);
+}
+.main{
+    border:1px solid black;
+    margin: 30px 60px 10px 60px;
+    padding: 20px;
+    
+}
+p{
+    display: inline;
+}
+span{
+    float: left;
+}
+.queshead{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+}
+.btndiv{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 50px;
+    padding: 20px;
+    grid-row-gap: 15px;
+}
+.btn{
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    background-color: #2196f3;
+    color: white;
+}
+.btnf2{
+    text-decoration: none;
+    padding: 2px;
+}
+.btnf4{
+    width: 100%;
+    height: 30px;
+}
+.btn:hover{
+    background-color: #3f51b5;
+}
+.toast{
+    background-color: #4caf50; 
+    max-width: 150px; 
+    position: relative;
+    top: -200px !important;
+    right: -1150px !important;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+}
+.toast1{
+    background-color: #f44336; 
+    max-width: 150px; 
+    position: relative;
+    top: -200px !important;
+    right: -1150px !important;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+}
+.foot{
+    display: grid;
+    grid-template-columns: 75px 75px 75px;
+    justify-content: center;
+    grid-column-gap: 30px;
+    padding: 20px;
+
+}
+.foot>button{
+    padding: 2px;
+}
